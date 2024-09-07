@@ -6,7 +6,6 @@ This documentation provides an overview of the Schrodinger's Cat Neural Network 
 - [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
   - [Quantum Mechanics](#quantum-mechanics)
-  - [Neural Networks](#neural-networks)
 - [Code Structure](#code-structure)
   - [Quantum Randomness](#quantum-randomness)
   - [Weight Initialization](#weight-initialization)
@@ -25,10 +24,6 @@ The Schrodinger's Cat NN is a playful interpretation of the famous thought exper
 ### Quantum Mechanics
 - **Superposition**: In quantum mechanics, a system can exist in multiple states simultaneously. This is modeled in the NN by training two separate models that represent different states.
 - **Collapse of the Wave Function**: Upon measurement, the superposition collapses into one of the possible states. In this implementation, this is simulated by evaluating the performance of both models and selecting one based on their accuracies.
-
-### Neural Networks
-- **Neural Networks**: A computational model inspired by the human brain, consisting of interconnected nodes (neurons) that process data. This implementation uses fully connected layers.
-- **Activation Functions**: Functions that introduce non-linearity into the model. The implementation uses a custom probabilistic activation function.
 
 ## Code Structure
 
