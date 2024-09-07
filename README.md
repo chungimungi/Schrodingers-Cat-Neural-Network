@@ -11,6 +11,7 @@ This documentation provides an overview of the Schrodinger's Cat Neural Network 
   - [Quantum Randomness](#quantum-randomness)
   - [Weight Initialization](#weight-initialization)
   - [Probabilistic Activation Function](#probabilistic-activation-function)
+  - [DeadOrAlive Loss Function (DOALoss)](#deadoralive-loss-function-doaloss)
   - [Model Architecture](#model-architecture)
   - [Training and Evaluation](#training-and-evaluation)
 - [Data Preparation](#data-preparation)
@@ -58,6 +59,9 @@ class ProbabilisticActivation(nn.Module):
         negative_output = (torch.rand_like(x) * x) % np.pi 
         return torch.where(x > 0, positive_output, negative_output)
 ```
+
+### DeadOrAlive Loss Function (DOALoss)
+Custom loss function named `DOALoss` is implemented. This loss function applies a weighted cross-entropy loss that emphasizes the importance of correctly classifying instances of the 'alive' and 'dead' classes based on their assigned weights.
 
 ### Model Architecture
 The SchrodingersCatNN class defines a simple feedforward neural network with two linear layers and a custom activation function.
