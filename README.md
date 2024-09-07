@@ -1,7 +1,5 @@
 # Schrodinger's Cat Neural Network Implementation
 
-This documentation provides an overview of the Schrodinger's Cat Neural Network (NN) implementation, which creatively combines concepts from quantum mechanics with neural network training. The implementation demonstrates how probabilistic behaviors can be modeled in machine learning.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
