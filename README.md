@@ -1,19 +1,5 @@
 # Schrodinger's Cat Neural Network Implementation
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Key Concepts](#key-concepts)
-  - [Quantum Mechanics](#quantum-mechanics)
-- [Code Structure](#code-structure)
-  - [Quantum Randomness](#quantum-randomness)
-  - [Weight Initialization](#weight-initialization)
-  - [Probabilistic Activation Function](#probabilistic-activation-function)
-  - [DeadOrAlive Loss Function (DOALoss)](#deadoralive-loss-function-doaloss)
-  - [Model Architecture](#model-architecture)
-  - [Training and Evaluation](#training-and-evaluation)
-- [Data Preparation](#data-preparation)
-- [Final Evaluation and Collapse](#final-evaluation-and-collapse)
-
 ## Introduction
 The Schrodinger's Cat NN is a playful interpretation of the famous thought experiment in quantum mechanics, where a cat is both alive and dead until observed. This implementation uses two models (alive and dead) to represent the cat's states and incorporates probabilistic behaviors into the training process.
 
